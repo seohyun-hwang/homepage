@@ -1,1 +1,3 @@
-currently blank
+Password manager (load, search, add, edit, delete, save, save-and-quit) with AES encryption and OOP; the correct master password is required to gain entry into the manager.
+
+<!-- Copyright © Seohyun Hwang 2025. All rights reserved. -->

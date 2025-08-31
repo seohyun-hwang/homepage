@@ -1,3 +1,11 @@
-PROJECT STILL IN PROGRESS!
+<b>Description</b>: This is the code for my personal biographical website. My homepage: https://seohyun-hwang.github.io/homepage
 
-<b>Description</b>: This is the code for my personal biographical website.
+<b>Copyright © 2025 under Seohyun Hwang
+No part of my writing may be claimed as your own in any form or any means without my permission.
+This especially applies to:
+- My short biography (as found in `index.html`)
+- My blog posts (as found in the `BlogsText` folder)
+- My project descriptions (as found in the `ProjectsText` folder).
+
+Thank you for your attention.
+~ Seohyun

@@ -26,3 +26,5 @@ Want-getting {observations, pcrs/reasoning} {idea (un)sequencing, imagining inta
 • Inconsequential liberty [|privacy, workload]
 • Satisfaction {eat, sleep, exercise, socialize, think}
 &lt;parac(onsciousness)-(a)lign(ment): parac-state aligns with composite-existor’s best interests&gt;
+
+<!-- Copyright © Seohyun Hwang 2025. All rights reserved. -->
