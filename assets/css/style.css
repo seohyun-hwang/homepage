@@ -1,0 +1,689 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: cadetblue;
+  --light-color: #e6cece;
+  --dark-color: #333;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5; /* line-spacing */
+  background: #faf5ed; /* background color is white */
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  background: #e0f1cd;
+  padding: 20px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .container .main-menu ul {
+  display: flex;
+}
+
+.ord-item {
+  padding: 10px 20px;
+  display: block;
+  font-weight: 600; /*semi-bold*/
+  transition: 0.3s; /*duration for color-change after hover*/
+}
+
+.ord-item:hover {
+  color: var(--primary-color);
+}
+
+.navbar h1 {
+  transition: 0.3s;
+}
+
+.navbar h1:hover {
+  opacity: 0.7;
+}
+
+/* HERO */
+
+.hero .container {
+  background-size: contain;
+  background-position: center bottom;
+  height: 500px;
+}
+
+.hero .hero-contact .hero-heading {
+  margin-left: 25px;
+}
+.hero .hero-contact .hero-text {
+  margin-left: 25px;
+}
+
+.hero .hero-index .container {
+  background: url("../../img/hero_bg.png") no-repeat;
+  align-content: start;
+  background-size: cover;
+  background-position: center bottom;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.hero-index .hero-heading {
+  width: 70%;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+.hero-index .hero-text {
+  width: 70%;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+.hero-signature {
+  margin-top: 30px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 1000px;
+  max-width: 200px;
+  margin-left: 25px;
+  height: auto;
+  align-content: center;
+}
+.hero-index .btn-section {
+  margin-left: 25px;
+}
+
+.hero .hero-projects .container {
+  height: 200px;
+}
+.hero .hero-projects .hero-heading {
+  margin-left: 25px;
+}
+.hero .hero-projects .hero-text {
+  margin-left: 25px;
+}
+
+.hero .hero-contact .container {
+  height: 400px;
+}
+
+/* HOME - ABOUT */
+.quickstory {
+  margin-left: 20px;
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.quickstory ul li {
+  margin: 10px 0;
+}
+
+/* PROJECTS */
+
+.project-listing {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+
+
+/* CONTACT - BLOG */
+
+.blog .container {
+  max-width: 1100px;
+}
+
+.blog-intro {
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+
+.blog-listing {
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+
+/* FOOTER */
+.footer {
+  padding: 40px 25px;
+  background: var(--dark-color);
+}
+
+.footer i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-contacts {
+  line-height: 2.5;
+  color: #ccc;
+}
+
+.footer-end {
+  line-height: 2;
+  color: #000000;
+  text-align: end;
+}
+
+.footer-end a {
+  color: #605963;
+}
+
+
+/* UTILITY CLASSES */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-sm {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* BUTTONS */
+.btn-section {
+  display: inline-block;
+  font-weight: 600; /*semi-bold*/
+  transition: 0.3s; /*duration for color-change after hover*/
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 13px 20px;
+  background: var(--light-color);
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-btn i {
+  margin-right: 5px;
+  color: darkslategrey;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  color: var(--light-color);
+  background: var(--dark-color);
+}
+
+.nav-btn:hover i {
+  color: var(--light-color);
+}
+
+.index-hero-btn {
+  display: inline-block;
+  padding: 13px 20px;
+  background: #a9d9f1;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.index-hero-btn i {
+  color: #f64d7a;
+  transition: 0.3s;
+}
+
+.index-hero-btn:hover {
+  color: #86f48f;
+  background: var(--dark-color);
+}
+
+.index-hero-btn:hover i {
+  color: #86f48f;
+}
+
+/* TEXT CLASSES */
+.text-xxl {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 40px 0 20px;
+}
+
+.text-xl {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 40px 0 20px;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 30px 0 20px;
+}
+
+.text-md {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 20px 0 10px;
+}
+
+.text-sm {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 19px 0 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Hamburger Button */
+.hamburger-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000; /* a 'high' z-index */
+}
+
+.hamburger-button .hamburger-line {
+  width: 30px;
+  height: 3px;
+  background: #333;
+  margin: 6px 0;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -300px; /* get it off the screen into the rightward direction */
+  width: 250px;
+  height: 100%;
+  z-index: 999; /* right under the hamburger menu */
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-in-out;
+}
+
+.mobile-menu ul {
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.mobile-menu ul li {
+  margin: 10px 0;
+}
+
+.mobile-menu ul li a {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.mobile-menu.active {
+  right: 0;
+}
+
+/* Media Queries */
+@media (max-width: 1030px) {
+  .hero .hero-contact .hero-text {
+    width: 70%;
+  }
+}
+@media (max-width: 800px) { /* Medium device size: stack footer-elements + adjust max-widths */
+  .hero .hero-text {
+    width: 60%;
+  }
+  .hero .hero-contact .container {
+    height: 450px;
+  }
+  .footer .footer-grid {
+    display: block;
+    justify-content: normal;
+  }
+  .footer-end ul {
+    text-align: start;
+  }
+  .hero .hero-contact .hero-text {
+    width: 80%;
+  }
+}
+@media (max-width: 750px) {
+  .hero .hero-index .container {
+    height: 600px;
+  }
+}
+@media (max-width: 600px) { /* Small device size: adjust max-widths + remove subsite-access-buttons + add hamburger navigator */
+  .hero .hero-text {
+    width: 80%
+  }
+  .quickstory {
+    width: 90%
+  }
+  .hero .hero-index .container {
+    height: 600px;
+  }
+  .hero .hero-signature {
+    margin-bottom: 20px;
+  }
+
+  .hero .hero-index .btn-section {
+    display: none;
+    font-weight: 0;
+  }
+  .hero .hero-contact .container {
+    height: 500px;
+  }
+  .navbar .btn-section {
+    display: none;
+  }
+  .footer-contacts {
+    display: none;
+  }
+  .footer-end ul li:nth-child(1) {
+    display: none;
+  }
+
+  .navbar .hamburger-button {
+    display: block;
+  }
+}
+@media (max-width: 460px) {
+  .hero .hero-index .container {
+    height: 700px;
+  }
+  .hero .hero-contact {
+    height: 600px;
+  }
+}
+@media (max-width: 410px) {
+  .hero .hero-contact {
+    height: 700px;
+  }
+}
+@media (max-width: 350px) { /* Extremely small device size: adjust max-widths */
+  .hero .hero-text {
+    width: 90%
+  }
+  .hero .container {
+    height: 1000px;
+  }
+  .hero .hero-signature {
+    margin-bottom: 20px;
+  }
+  .hero .hero-index .container {
+    height: 700px;
+  }
+  .hero .hero-projects {
+    height: 250px;
+  }
+}
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .visually-hidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * The use of `table` rather than `block` is only necessary if using
+ * `::before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
