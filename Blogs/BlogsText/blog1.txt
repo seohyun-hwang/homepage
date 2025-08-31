@@ -21,8 +21,8 @@ subject can sense the absolute, is not the absolute ⇒ subject given info by su
 riskprep maintains wellbeing, resolution confirms wellbeing ∴ riskprep is exaggerated above resolution.
 
 Want-getting {observations, pcrs/reasoning} {idea (un)sequencing, imagining intangible entities, paraclign}
-Safety {air/water/food quality/access} [|sunlight, crime rate, natural-disaster rate]
-Networking to the surrounding society {travel/signal speed {protocol-homogeneity}, market}
-Inconsequential liberty [|privacy, workload]
-Satisfaction {eat, sleep, exercise, socialize, think}
+• Safety {air/water/food quality/access} [|sunlight, crime rate, natural-disaster rate]
+• Networking to the surrounding society {travel/signal speed {protocol-homogeneity}, market}
+• Inconsequential liberty [|privacy, workload]
+• Satisfaction {eat, sleep, exercise, socialize, think}
 &lt;parac(onsciousness)-(a)lign(ment): parac-state aligns with composite-existor’s best interests&gt;
