@@ -1,3 +1,5 @@
 Password manager (load, search, add, edit, delete, save, save-and-quit) with AES encryption and OOP; the correct master password is required to gain entry into the manager.
+<br><br>
+Most of the project was developed within March 1-25 and August 16-18, 2025.
 
 <!-- Copyright © Seohyun Hwang 2025. All rights reserved. -->
