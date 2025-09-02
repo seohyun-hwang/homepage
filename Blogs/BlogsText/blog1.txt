@@ -15,13 +15,13 @@ riskprep maintains wellbeing, resolution confirms wellbeing ∴ riskprep priorit
 ∄ autoexistence-autosynthesis ⇒ ∄ existor ∴ ∃ existor ⇒ ∃ autoexistence-autosynthesis
 ∴ (∃ existor) carried by (∃ autoexistence-autosynthesis).
 
-&lt;synthesis&gt; &lt;presynth-(non)sensable&gt; &lt;synth-choice> &lt;post-sc synth&gt;
-&lt;{...}: [synth-carrier is: …]&gt; &lt;[|...]: [pss may be: …]&gt; &lt;pscs-comparative pscs-recurrence sense>
-existence {occupation, nourishment, defense/reparation} [| (non)general synth-sense {abstraction, pcrs}.
+&lt;<b>synth</b>esis&gt; &lt;<b>p</b>resynth-<b>(n</b>on<b>)</b>sensable&gt; &lt;<b>s</b>ynth-<b>c</b>hoice> &lt;<b>p</b>ost-<b>sc</b> <b>s</b>ynth&gt;
+&lt;{...}: [synth-carrier is: …]&gt; &lt;[|...]: [pss may be: …]&gt; &lt;<b>p</b>scs-<b>c</b>omparative pscs-<b>r</b>ecurrence <b>s</b>ense>
+existence {occupation, nourishment, defense/reparation} [|(non)general synth-sense {abstraction, pcrs}].
 want-resolution synth {observations, pcrs, idea-(un)sequencing} {identifiable want-resolutions [|air/water/food/sunlight, sleeping, exercising, socializing, thinking], want-resolution sc-availability-abundance}.
-&lt;autoneosc: an entity’s choice that defines that entity’s new-form self-resynthesis&gt;
-entity1ansc responsive to entity2ansc ∴ entity1ansc {entity2ansc}
-∴ entity1anscpcrs same as specific-neosynth of entity2anscpcrs
+&lt;<b>a</b>uto<b>n</b>eo<b>sc</b>: an entity’s choice that defines that entity’s new-form self-resynthesis&gt;
+entity1ansc <b>responsive to</b> entity2ansc ∴ entity1ansc {entity2ansc}
+∴ entity1anscpcrs <b>same as</b> specific-neosynth of entity2anscpcrs
 ∴ entityset1anscpcrs integrated within anscpcrs-neosynth-pcrs → entityset2anscpcrs.
 
 
