@@ -18,7 +18,7 @@ riskprep maintains wellbeing, resolution confirms wellbeing ∴ riskprep priorit
 &lt;synthesis&gt; &lt;presynth-(non)sensable&gt; &lt;synth-choice> &lt;post-sc synth&gt;
 &lt;{...}: [synth-carrier is: …]&gt; &lt;[|...]: [pss may be: …]&gt; &lt;pscs-comparative pscs-recurrence sense>
 existence {occupation, nourishment, defense/reparation} [| (non)general synth-sense {abstraction, pcrs}.
-want-resolution synth {observations, pcrs, idea-(un)sequencing} {identifiable want-resolutions [|air/water/food/sunlight, sleeping, exercising, socializing, thinking], want-resolution-nonsynth sc-availability-abundance}.
+want-resolution synth {observations, pcrs, idea-(un)sequencing} {identifiable want-resolutions [|air/water/food/sunlight, sleeping, exercising, socializing, thinking], want-resolution sc-availability-abundance}.
 &lt;autoneosc: an entity’s choice that defines that entity’s new-form self-resynthesis&gt;
 entity1ansc responsive to entity2ansc ∴ entity1ansc {entity2ansc}
 ∴ entity1anscpcrs same as specific-neosynth of entity2anscpcrs
