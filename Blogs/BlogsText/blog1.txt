@@ -15,8 +15,8 @@ riskprep maintains wellbeing, resolution confirms wellbeing ∴ riskprep priorit
 ∄ autoexistence-autosynthesis ⇒ ∄ existor ∴ ∃ existor ⇒ ∃ autoexistence-autosynthesis
 ∴ (∃ existor) carried by (∃ autoexistence-autosynthesis).
 
-&lt;<b>synth</b>esis&gt; &lt;<b>p</b>resynth-<b>(n</b>on<b>)</b>sensable&gt; &lt;<b>s</b>ynth-<b>c</b>hoice> &lt;<b>p</b>ost-<b>sc</b> <b>s</b>ynth&gt;
-&lt;{...}: [synth-carrier is: …]&gt; &lt;[|...]: [pss may be: …]&gt; &lt;<b>p</b>scs-<b>c</b>omparative pscs-<b>r</b>ecurrence <b>s</b>ense>
+&lt;<b>synth</b>esis&gt; &lt;<b>p</b>resynth-<b>(n</b>on<b>)s</b>ensable&gt; &lt;<b>s</b>ynth-<b>c</b>hoice> &lt;<b>p</b>ost-<b>sc</b> <b>s</b>ynth&gt;
+&lt;{...}: [synth-carrier is: …]&gt; &lt;[|...]: [ps(n)s may be: …]&gt; &lt;<b>p</b>scs-<b>c</b>omparative pscs-<b>r</b>ecurrence <b>s</b>ense>
 existence {occupation, nourishment, defense/reparation} [|(non)general synth-sense {abstraction, pcrs}].
 want-resolution synth {observations, pcrs, idea-(un)sequencing} {identifiable want-resolutions [|air/water/food/sunlight, sleeping, exercising, socializing, thinking], want-resolution sc-availability-abundance}.
 &lt;<b>a</b>uto<b>n</b>eo<b>sc</b>: an entity’s choice that defines that entity’s new-form self-resynthesis&gt;
@@ -26,6 +26,6 @@ entity1ansc <b>responsive to</b> entity2ansc ∴ entity1ansc {entity2ansc}
 
 
 <br><br>
-PS: Most of the writing above was developed within Aug 12-16 and Sep 1, 2025.
+PS: Most of the writing above was developed within Aug 12-16 and Sep 1-2, 2025.
 
 <!-- Copyright © Seohyun Hwang 2025. All rights reserved. -->
