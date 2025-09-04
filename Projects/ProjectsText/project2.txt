@@ -2,6 +2,10 @@ Prompts user for info on various bodily conditions of a patient, then returns a 
 Training method: Logistic Regression.<br>
 This program requires Python Pandas, NumPy, and Scikit-learn to function.<br>
 <br>
+
+This project is my break into machine learning. I have practiced Python since elementary school to get me started with programming so that I can understand the plugins I use for my private Minecraft servers. Something that I obviously didn't do is use Python to code machine learning projects.
+With this project, I could explore essentially the tip of the iceberg when it comes to AI, helping me get a general impression of what makes machine learning meaningful without getting discouraged by the nitty-gritty (those are covered by the Scikit-learn tools).
+For my coming machine learning projects, I will look into how I can use Pandas and NumPy to interpret the MNIST dataset without using Scikit-learn.
 Most of the project was developed within August 18-19, 2025.
 
 <!-- Copyright © Seohyun Hwang 2025. All rights reserved. -->
