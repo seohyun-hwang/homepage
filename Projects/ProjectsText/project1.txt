@@ -1,5 +1,10 @@
 Password manager (load, search, add, edit, delete, save, save-and-quit) with AES encryption and OOP; the correct master password is required to gain entry into the manager.
 <br><br>
+This project serves as a means for me to practice OOP with some spice (the encryption part). This means having four classes, three of which involve creating an instance of another class and using functions from another class.
+Additionally, I have believed that a password manager is meaningless without encryption. If there is no encryption, I may as well just write my passwords into my notebook or the notes app; my operating system can take care of the security. By integrating AES-encrypted persistent storage, I made this program genuinely useful for my daily life.
+To access this program, I need to input the correct master-password (this is a password that only I can remember) and then, I can just do whatever I want.
+
+In the future, I may incorporate two-factor authorization and the forgot-password functionality. If I forget my master password, I am in big trouble. But I don't think that'll happen anytime soon.
 Most of the project was developed within March 1-25 and August 16-18, 2025.
 
 <!-- Copyright © Seohyun Hwang 2025. All rights reserved. -->
